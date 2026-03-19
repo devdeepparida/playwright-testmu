@@ -1,0 +1,21 @@
+{
+  "name": "playwright-testmu",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript automation for TestMu AI Selenium Playground",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report",
+    "test:scenario1": "npx playwright test tests/scenario1.spec.ts",
+    "test:scenario2": "npx playwright test tests/scenario2.spec.ts",
+    "test:scenario3": "npx playwright test tests/scenario3.spec.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.43.0",
+    "@types/node": "^20.12.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1"
+  }
+}
